@@ -1,5 +1,5 @@
-import { onCreateTask } from './createTask.js';
-import { onListClick } from './updateTask.js';
+import { onCreateTask } from './createTask';
+import { onListClick } from './updateTask';
 
 export const initTodoListHandlers = () => {
   const createBtnElem = document.querySelector('.create-task-btn');

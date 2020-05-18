@@ -1,6 +1,6 @@
-import { renderTasks } from './renderer.js';
-import { getItem, setItem } from './storage.js';
-import { updateTask, getTasksList, deleteTask } from './tasksGateway.js';
+import { renderTasks } from './renderer';
+import { getItem, setItem } from './storage';
+import { updateTask, getTasksList, deleteTask } from './tasksGateway';
 
 export const onListClick = (event) => {
   const check = event.target.classList.contains('list-item__checkbox');
