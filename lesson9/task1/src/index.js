@@ -3,13 +3,13 @@
 import printProfile from './renderProfile';
 
 const userData = {
-    name: 'Tom',
-    age: 17,
+  name: 'Tom',
+  age: 17,
 };
 
 const profile = {
-    ...userData,
-    company: 'Gromcode',
+  ...userData,
+  company: 'Gromcode',
 };
 
 printProfile(profile);
